@@ -1,0 +1,23 @@
+ALGORITHM algorithm_name
+
+PROCEDURE Insertion Sort (VAR arr :tab,n:entier)
+VAR
+  
+    i,j:INTEGER
+    n:entier
+BEGIN
+    FOR  i from 0 To n-1 STEP n DO
+    a <- arr[i];
+    j <- i 
+
+    FOR (j>1)AND (arr[j-1]>a) DO
+    arr[j]<- arr[j-1];
+    j<-j-1
+
+END FOR
+
+arr[j]<-a
+
+END FOR
+
+END
